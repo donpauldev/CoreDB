@@ -18,10 +18,10 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        var backButtonImage = UIImage(named: "Menu")
-        backButtonImage = backButtonImage?.stretchableImage(withLeftCapWidth: 15, topCapHeight: 30)
-        UIBarButtonItem.appearance().setBackButtonBackgroundImage(backButtonImage, for: .normal, barMetrics: .default)
+//
+//        var backButtonImage = UIImage(named: "Menu")
+//        backButtonImage = backButtonImage?.stretchableImage(withLeftCapWidth: 130, topCapHeight: -230)
+//        UIBarButtonItem.appearance().setBackButtonBackgroundImage(backButtonImage, for: .normal, barMetrics: .default)
         
     }
     
